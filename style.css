@@ -1,0 +1,59 @@
+
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif; /* Use a sans-serif font */
+    padding: 20px; /* Add padding to the body */
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add bottom margin for spacing */
+}
+
+.selection {
+    border: 2px solid #333; /* Add border to buttons */
+    background-color: #fff; /* White background */
+    cursor: pointer;
+    margin: 0 10px; /* Add horizontal margin for spacing */
+    padding: 10px 20px; /* Add padding to buttons */
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition */
+}
+
+.selection img {
+    width: 50px; /* Reduce image size */
+}
+
+.selection:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #fff; /* White text on hover */
+}
+
+.results{
+    margin: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.result-score {
+    font-size: 24px; /* Increase font size for scores */
+    font-weight: bold; /* Bold font for scores */
+    margin: 0 10px; /* Add horizontal margin for spacing */
+}
+.result-selection{
+    opacity: .5;
+    margin: 10px 0; /* Add vertical margin for spacing */
+    padding: 10px; /* Add padding to result elements */
+    border: 1px solid #ccc; /* Add border to result elements */
+    border-radius: 5px; /* Add border radius */
+    font-size: 18px; /* Increase font size */
+}
+
+.winner{
+    opacity: 1;
+    font-size: 1.5rem;
+    background-color: #ffc; /* Light yellow background for winner */
+}
